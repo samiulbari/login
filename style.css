@@ -1,0 +1,74 @@
+body{
+
+	background: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("background2.jpg");
+
+}
+
+.container{
+
+	width: 500px;
+    margin: 5% auto;
+
+}
+img{
+	display: block;
+    margin: -5% auto;
+    background: azure;
+    border-radius: 10px;
+}
+
+h2{
+	color: #ffffffd6;
+    text-align: center;
+    font-stretch: expanded;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 32px;
+}
+
+.Login-From{
+	background: gray;
+    opacity: 0.8;
+    box-sizing: border-box;
+    margin: 32px -3px;
+    padding: 48px;
+
+}
+.Login-control{
+	width: 92%;
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 16px;
+    padding: 13px 4px;
+
+
+}
+.button{
+	background: border-box;
+    font-size: 25px;
+    padding: 5px 20px;
+    margin: 5px 130px;
+    text-align: center;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:hover{
+
+			box-shadow: 4px 4px 4px black;
+            opacity: 0.8;
+	 
+}
+
+.Login-From a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 25px;
+	color: black;
+	text-align: center;
+}
